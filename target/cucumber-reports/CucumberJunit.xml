@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="10.229">
+    <testcase classname="Scenarios for GMO online" name="GMO home page" time="0.556">
+        <system-out>
+            <![CDATA[Given I am on gmo home page.................................................passed
+When I enter gmo online.....................................................passed
+Then I should see catalag page..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Scenarios for GMO online" name="Catalog page - item selection" time="0.657">
+        <system-out>
+            <![CDATA[Given Catalog page is displayed.............................................passed
+When I select 2 qty of Glacier Sun Glasses and place order..................passed
+Then Place order page is displayed with items selected......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Scenarios for GMO online" name="Place order" time="0.441">
+        <system-out>
+            <![CDATA[Given Place order page is displayed.........................................passed
+When I checkout.............................................................passed
+Then billing information page should be displayed...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Scenarios for GMO online" name="Billing page" time="1.327">
+        <system-out>
+            <![CDATA[Given Billing page is displayed.............................................passed
+When I input correct billing address........................................passed
+Then the system should take me to receipt page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Scenarios for GMO online" name="Online receipt page" time="0.106">
+        <system-out>
+            <![CDATA[Given I am on receipt page..................................................passed
+When I return to home page..................................................passed
+Then Home page should be displayed..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
