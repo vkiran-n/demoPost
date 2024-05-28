@@ -31,7 +31,7 @@ public class GmoStepsHooks {
 		System.out.println("beforeAllScenario - Opening the chrome browser");
 		// For firefox browser
 		System.setProperty("webdriver.chrome.driver",
-				"F:\\Training\\Selenium\\CoreFiles\\BrowserDrivers\\chromedriver107.exe");
+				"F:\\Training\\Selenium\\CoreFiles\\BrowserDrivers\\chromedriver125.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 		driver.get("http://demo.borland.com/gmopost/");
